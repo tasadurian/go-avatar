@@ -17,7 +17,7 @@ func main() {
   }
   fmt.Printf("%+v", response)
 }
-```go
+```
 
 Return structure:
 ```
@@ -26,4 +26,4 @@ type Profile struct {
 	Image string // url to profile image
 	Valid string // valid: true or false
 }
-```go
+```
